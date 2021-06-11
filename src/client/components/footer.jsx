@@ -1,7 +1,5 @@
 import React from 'react';
-import './Footer.css';
-
-import { Button } from 'antd';
+import './Footer.sass';
 
 export default function footerView() {
   return <div className='footer'>

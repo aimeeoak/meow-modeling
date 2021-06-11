@@ -1,6 +1,6 @@
 import { React, useState } from 'react';
 
-import logo from "./logo/"
+import logo from ".../public"
 
 const { Search } = Input;
 
@@ -10,7 +10,7 @@ export default function headerView(props) {
   return <div id="topbar">
     <div className='header-background'>
       <div>
-        <img src={logo} class="logo" alt="OAR: Open Academic Research - research without paywalls Logo" />
+        <img src={logo} class="logo" alt="Meow Modeling" />
       </div>
   
     </div>
